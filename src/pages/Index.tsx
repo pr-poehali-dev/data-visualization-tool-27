@@ -57,17 +57,17 @@ const Index = () => {
 
             <div className="flex flex-col gap-2 max-w-5xl">
               <div className="flex items-center gap-4">
-                <span className="text-accent font-mono text-sm">Имя</span>
-                <span className="text-foreground font-mono text-sm">Макс</span>
+                <span className="text-accent font-mono text-sm">Миссия</span>
+                <span className="text-foreground font-mono text-sm">Помочь найти по-настоящему полезную еду</span>
               </div>
               <div className="flex items-center gap-4">
-                <span className="text-accent font-mono text-sm">Вид</span>
-                <span className="text-foreground font-mono text-sm">Инопланетянин с планеты Флэпджек</span>
+                <span className="text-accent font-mono text-sm">Для кого</span>
+                <span className="text-foreground font-mono text-sm">Для тех, кто заботится о своём здоровье и питании</span>
               </div>
               <div className="flex items-start gap-4">
-                <span className="text-accent font-mono text-sm">Характер</span>
+                <span className="text-accent font-mono text-sm">О проекте</span>
                 <span className="text-foreground font-mono text-sm">
-                  Любопытный, гибкий, немного расслабленный - но острый, когда дело касается баз данных и организации информации.
+                  Каталог полезных продуктов и блюд — с составом, пользой и рекомендациями. Только честная информация о еде, которая делает вас сильнее.
                 </span>
               </div>
             </div>
