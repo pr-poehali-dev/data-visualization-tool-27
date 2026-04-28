@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Pacifico&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,38 +6,39 @@
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 98%;
+    --background: 24 30% 97%;
+    --foreground: 20 30% 15%;
 
-    --card: 0 0% 7%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 30% 15%;
 
-    --popover: 0 0% 3%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 30% 15%;
 
-    --primary: 147 87% 52%;
-    --primary-foreground: 0 0% 3%;
+    --primary: 22 95% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 12%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 36 80% 92%;
+    --secondary-foreground: 20 30% 15%;
 
-    --muted: 0 0% 9%;
-    --muted-foreground: 0 0% 62%;
+    --muted: 30 30% 93%;
+    --muted-foreground: 20 20% 50%;
 
-    --accent: 147 87% 52%;
-    --accent-foreground: 0 0% 3%;
+    --accent: 340 80% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 18%;
-    --input: 0 0% 12%;
-    --ring: 147 87% 52%;
+    --border: 30 20% 85%;
+    --input: 30 20% 88%;
+    --ring: 22 95% 55%;
 
-    --radius: 0.625rem;
+    --radius: 1rem;
 
     --font-mono: "IBM Plex Mono", monospace;
     --font-montserrat: "Montserrat", sans-serif;
+    --font-pacifico: "Pacifico", cursive;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -85,7 +86,8 @@ div[style*="spline"] > a,
 canvas + a[target="_blank"],
 .spline-watermark,
 div[class*="spline"] > a[href*="spline"],
-a[href="https://spline.design"] {
+a[href="https://spline.design"]
+{
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
